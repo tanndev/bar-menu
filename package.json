@@ -1,6 +1,6 @@
 {
   "name": "@tanndev/bar-menu",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Recipes for various beverages.",
   "main": "app.js",
   "scripts": {

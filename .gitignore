@@ -1,0 +1,11 @@
+# Development and Secrets
+/*.iml
+/.idea/*
+!/.idea/dictionaries/
+!/.idea/runConfigurations/
+!/.idea/scopes/
+
+# Node & NPM
+node_modules
+npm-debug.log
+.npmrc

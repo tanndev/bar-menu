@@ -1,0 +1,29 @@
+{
+  "name": "@tanndev/bar-menu",
+  "version": "1.0.0",
+  "description": "Recipes for various beverages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No tests available\" && exit 1;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanndev/bar-menu.git"
+  },
+  "author": "James Tanner <james.tanner@tanndev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tanndev/bar-menu/issues"
+  },
+  "homepage": "https://github.com/Tanndev/bar-menu#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-errors": "^1.7.2",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

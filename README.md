@@ -1,2 +1,2 @@
-# bar-menu
-Recipies for various beverages.
+# TannDev Bar Menu
+Recipes for various beverages.

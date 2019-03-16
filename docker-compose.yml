@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    image: jftanner/bar-menu
+    container_name: bar-menu
+    restart: unless-stopped
+    ports:
+      - 8080:8083
+    environment:
+      - NODE_ENV=production
+      - PORT=8083

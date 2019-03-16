@@ -4,6 +4,7 @@
   "description": "Recipes for various beverages.",
   "main": "app.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"No tests available\" && exit 1;"
   },
   "repository": {

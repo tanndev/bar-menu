@@ -74,10 +74,10 @@ pipeline {
                     }
 
                     if (RELEASE_VERSION) {
-                        slackSend channel: '#general', color: 'good', message: "Released <https://bar-menu.tanndev.com|Bar Menu> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>) (<${env.BUILD_URL}console|Build Console>)"
+                        slackSend channel: '#bar-menu', color: 'good', message: "Released <https://bar-menu.tanndev.com|Bar Menu> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>) (<${env.BUILD_URL}console|Build Console>)"
                     }
                     else {
-                        slackSend channel: '#general', color: 'good', message: "Redeployed <https://bar-menu.tanndev.com|Bar Menu>. (<${env.BUILD_URL}console|Build Console>)"
+                        slackSend channel: '#bar-menu', color: 'good', message: "Redeployed <https://bar-menu.tanndev.com|Bar Menu>. (<${env.BUILD_URL}console|Build Console>)"
                     }
                 }
             }
@@ -86,7 +86,7 @@ pipeline {
 
     post {
         failure {
-            slackSend channel: '#general', color: 'danger', message: "Failed to build/publish Bar Menu. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Build Console>)"
+            slackSend channel: '#bar-menu', color: 'danger', message: "Failed to build/publish Bar Menu. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Build Console>)"
         }
     }
 }
